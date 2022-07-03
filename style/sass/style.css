@@ -28,6 +28,29 @@
   src: url(/Webfonts/IRANSansWeb_Black.woff) format("woff");
   font-weight: 900;
 }
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "IRANSansWeb";
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.box {
+  background-color: red;
+}
+.box-container {
+  color: black;
+}
+.box-container-inner {
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */

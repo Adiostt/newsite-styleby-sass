@@ -1,2 +1,11 @@
 @import "fonts";
 @import "global";
+@import "mixins";
+@import "variables";
+// .box {
+//     @include border_radios(20px);
+//     @include tranisition(all .3s);
+//     @extend %main-shadow;
+//     background: #eee;
+//     ;
+// }

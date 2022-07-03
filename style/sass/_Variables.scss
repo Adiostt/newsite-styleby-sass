@@ -1,0 +1,30 @@
+// fonts
+$main_font: 'Iranssans';
+$font_icon: 'material icons';
+// colors
+$primary: red;
+$secondary: green;
+$main_bg: #f1f1f1;
+$header_bg: #f6f6f6;
+// layout
+$container_max_width: 1280px;
+$row_padding:0 20px;
+// sizes
+$text: 14px;
+$title_article :20px;
+%main-shadow {
+    box-shadow: 0 0 10px rgb(138, 129, 129);
+    &:hover {}
+}
+
+button:hover {}
+
+.box {
+    background-color: red;
+    &-container {
+        color: black;
+        &-inner {
+            padding: 20px;
+        }
+    }
+}

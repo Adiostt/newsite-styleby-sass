@@ -1,0 +1,10 @@
+@mixin border_radios($border) {
+    border-radius: $border;
+}
+
+@mixin tranisition($type) {
+    transition: $type;
+    -webkit-transition: $type;
+    -o-transition: $type;
+    -moz-transition: $type;
+}
