@@ -28,12 +28,19 @@
   src: url(/Webfonts/IRANSansWeb_Black.woff) format("woff");
   font-weight: 900;
 }
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../Webfonts/Material.woff2") format("woff2");
+}
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: "IRANSansWeb";
+  direction: rtl;
 }
 
 ul {
@@ -45,12 +52,33 @@ a {
   color: black;
 }
 
-.box {
-  background-color: red;
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #374a5e;
 }
-.box-container {
-  color: black;
+
+h3 {
+  font-size: 35px;
+  color: #374a5e;
 }
-.box-container-inner {
-  padding: 20px;
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo img {
+  height: 62.83px;
 }/*# sourceMappingURL=style.css.map */

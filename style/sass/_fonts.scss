@@ -33,3 +33,10 @@
     src: url(/Webfonts/IRANSansWeb_Black.woff) format('woff');
     font-weight: 900;
 }
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../Webfonts/Material.woff2') format('woff2');
+}

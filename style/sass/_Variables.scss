@@ -12,19 +12,7 @@ $row_padding:0 20px;
 // sizes
 $text: 14px;
 $title_article :20px;
-%main-shadow {
-    box-shadow: 0 0 10px rgb(138, 129, 129);
-    &:hover {}
-}
-
-button:hover {}
-
-.box {
-    background-color: red;
-    &-container {
-        color: black;
-        &-inner {
-            padding: 20px;
-        }
-    }
-}
+// %main-shadow {
+//     box-shadow: 0 0 10px rgb(138, 129, 129);
+//     &:hover {}
+// }
