@@ -117,8 +117,42 @@ box-shadow: 0px 0px 18px #6710f281;
     background-color: #fc3549;
 }
 
+@keyframes animationleft {
+from{right: 0px;}
+to{right: 30px;}
+}
 
 .hero-left-button p{
     font-weight: 600;
     color: #fc3549;
+    cursor: pointer;
+}
+
+.hero-left-button{
+    position: relative;
+    width: 30%;
+}
+
+.hero-left-button:hover{
+    animation-timing-function: ease-out;
+    animation-name: 'animationleft';
+    animation-fill-mode: both;
+    animation-duration: 1s;
+}
+
+.hero-section-wrap{
+    display: flex;
+}
+
+.hero-image img{
+    width: 90%;
+}
+
+.hero-image{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.hero-descrition{
+    padding-top: 200px;
 }

@@ -182,7 +182,58 @@ h3 {
   background-color: #fc3549;
 }
 
+@-webkit-keyframes animationleft {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 30px;
+  }
+}
+
+@keyframes animationleft {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 30px;
+  }
+}
 .hero-left-button p {
   font-weight: 600;
   color: #fc3549;
+  cursor: pointer;
+}
+
+.hero-left-button {
+  position: relative;
+  width: 30%;
+}
+
+.hero-left-button:hover {
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-name: "animationleft";
+          animation-name: "animationleft";
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.hero-section-wrap {
+  display: flex;
+}
+
+.hero-image img {
+  width: 90%;
+}
+
+.hero-image {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.hero-descrition {
+  padding-top: 200px;
 }/*# sourceMappingURL=style.css.map */
