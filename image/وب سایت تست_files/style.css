@@ -159,30 +159,5 @@ h3 {
 
 .hero-button-group {
   display: flex;
-  align-items: center;
-}
-
-.hero-middle-button {
-  width: 60px;
-  height: 60px;
-  background-color: rgba(252, 53, 73, 0.0823529412);
-  color: #fc3549;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  border-radius: 60px;
-  margin: 0 30px;
-  transition: all 0.3s ease-out;
-  cursor: pointer;
-}
-
-.hero-middle-button:hover {
-  transition: all 0.3s ease-out;
-  color: #ffffff;
-  background-color: #fc3549;
-}
-
-.hero-left-button p {
-  font-weight: 600;
-  color: #fc3549;
+  align-items: center !important;
 }/*# sourceMappingURL=style.css.map */

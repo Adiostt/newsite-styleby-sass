@@ -2,9 +2,19 @@
     border-radius: $border;
 }
 
-@mixin tranisition($type) {
-    transition: $type;
-    -webkit-transition: $type;
-    -o-transition: $type;
-    -moz-transition: $type;
-}
+ @mixin subtitle($color) {
+color: $color;
+padding: 8px 20px;
+font-size: 13px;
+font-weight: 500;
+border-radius: 14px;
+ }
+
+ @mixin button-global($color,$padding,$radius) {
+    color: $color;
+    padding: $padding;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: $radius;
+     }
+
