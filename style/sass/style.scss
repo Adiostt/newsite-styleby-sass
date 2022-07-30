@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     border-bottom: .5px solid rgb(223, 223, 223);
+    background-color: #ffffff;
 }
 
 .navigation-li ul {
@@ -156,3 +157,22 @@ to{right: 30px;}
 .hero-descrition{
     padding-top: 200px;
 }
+
+.hero-back-img{
+    position: absolute;
+    top: -167px;
+    left: 27%;
+    z-index: -20;
+    margin: auto;
+    animation: mymove 12s infinite linear;
+}
+
+@keyframes mymove {
+    0% {transform: rotate(360deg);}
+  }
+
+  .left-side{
+    @extend .container;
+    display: flex;
+    align-items: center;
+  }

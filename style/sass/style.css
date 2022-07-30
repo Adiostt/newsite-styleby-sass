@@ -64,7 +64,7 @@ h3 {
   color: #374a5e;
 }
 
-.container, .hero-section {
+.container, .left-side, .hero-section {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -85,6 +85,7 @@ h3 {
   display: flex;
   align-items: center;
   border-bottom: 0.5px solid rgb(223, 223, 223);
+  background-color: #ffffff;
 }
 
 .navigation-li ul {
@@ -236,4 +237,30 @@ h3 {
 
 .hero-descrition {
   padding-top: 200px;
+}
+
+.hero-back-img {
+  position: absolute;
+  top: -167px;
+  left: 27%;
+  z-index: -20;
+  margin: auto;
+  -webkit-animation: mymove 12s infinite linear;
+          animation: mymove 12s infinite linear;
+}
+
+@-webkit-keyframes mymove {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes mymove {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+.left-side {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
