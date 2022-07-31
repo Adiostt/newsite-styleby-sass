@@ -263,4 +263,30 @@ h3 {
 .left-side {
   display: flex;
   align-items: center;
+  margin-right: 101px;
+}
+
+.social {
+  border-right: 1px solid #c7c7c7;
+  padding-right: 25px;
+}
+
+.social .fa {
+  margin-right: 15px;
+}
+
+.fa-dribbble {
+  color: #ea4c89;
+}
+
+.fa-youtube-play {
+  color: #ff0000;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-facebook {
+  color: #3b5998;
 }/*# sourceMappingURL=style.css.map */
