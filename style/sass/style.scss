@@ -60,6 +60,9 @@
 }
 .hero-section{
     @extend .container;
+    margin-bottom: 200px;
+    margin-top: 100px;
+
 }
 
 .hero-subtitle p{
@@ -202,3 +205,156 @@ to{right: 30px;}
   .fa-facebook{
     color: #3b5998;
   }
+
+  .p-ads-sub-title p{
+    @include subtitle(#fc3549);
+    background-color: #f3e4e9;
+    margin-bottom: 20px;
+  }
+   
+  .p-ads-sub-title{
+    display: flex;
+  }
+  
+  .span-underline{
+    text-decoration: underline;
+    text-decoration-color: #f8abb4;
+  }
+
+  .the-ads-true-boxs{
+    display: flex;
+    
+  }
+
+  .the-ads-true-box1{
+    max-width: 33%;
+    padding: 75px;
+    transition: all .3s;
+  }
+
+  .the-ads-true-box1 i{
+    font-size: 70px;
+    margin-bottom: 20px;
+    transition: all .3s;
+  }
+
+  .the-ads-true-title{
+    margin-bottom: 110px;
+  }
+
+  .box-description{
+    color: #7c7c7c;
+  }
+  .fa-gg{
+    color :#42ffd6
+  }
+
+  .fa-forumbee{
+    color: #6610f2;
+  }
+
+  .fa-linux{
+    color: #fc3549;
+  }
+  .the-ads-true{
+    background-image: url(/image/features-bg-img.png);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 70px;
+  }
+
+  .box1:hover{
+    background-color: #ffffff;
+    box-shadow:0 0 100px 0 #e2e2e2;
+    transition: all .3s;
+    cursor: pointer;
+  }
+  .box2:hover{
+    background-color: #ffffff;
+    box-shadow:0 0 100px 0 #e2e2e2;
+    transition: all .3s;
+    cursor: pointer;
+  }
+  .box3:hover{
+    background-color: #ffffff;
+    box-shadow:0px 0px 50px 0 #e2e2e2;
+    transition: all .3s;
+    cursor: pointer;
+  }
+
+  .adds-img img{
+    width: 100%;
+  }
+
+  .adds-wraper > div {
+    width: 50%;
+  }
+
+  .adds-wraper {
+    display: flex;
+
+  }
+
+  .adds-img{
+    padding: 0 0px 0 40px;
+
+  }
+  .discription li::before{
+    font-family: FontAwesome;
+    content: "\f00c";
+    padding-left: 10px;
+    color: #42ffd6;
+   }
+
+   .discription ul{
+    line-height: 40px;
+   }
+
+   .adds-btn {
+    display: flex;
+
+   }
+
+   .adds-btn a {
+    background-color:#00d280 ;
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 30px;
+   }
+   
+   .discription p {
+    margin: 60px 0 ;
+    line-height: 35px;
+   }
+
+   .adds-btn a::after{
+    font-family: FontAwesome;
+    content: "\f060";
+    padding: 0 10px 0 0;
+    color: #ffffff;
+   }
+
+   .adds{
+    margin-bottom: 120px;
+   }
+
+   .adds-discription-subtitle p , .business_subtitle p {
+    @include subtitle(#6610f2);
+    background-color:#6710f225 ;
+   }
+
+   .adds-discription-subtitle , .business_subtitle{
+    display: flex;
+   }
+
+   .business_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+   }
+
+   .business_content img {
+    width: 30%;
+    height: auto;
+   }
